@@ -1,0 +1,479 @@
+
+body {
+	background: url('backbis.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	font-family: AvenirLTStd-Roman;
+}
+
+*:focus {
+    outline: 0;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+:focus {outline:none;}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+input {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.form-control:focus{
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+section#header {
+	text-align: center;
+	margin-top: 26px;
+	clear: both;
+}
+#header p {
+	padding-top: 33px;
+	font-size: 24px;
+	color: #fff;
+	font-family: AvenirLTStd-Roman;	
+}
+
+#header h1 {
+	font-size: 28px;
+	color: #fff;
+	margin-top: 51px;
+	font-family: AvenirLTStd-Roman;
+}
+#header .signup-form {
+	max-width: 662px;
+}
+#header .signup-form .col {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+#header .signup-form {
+	margin: 0 auto;
+}
+#header .signup-form input, #header .signup-form .btn {
+	font-size: 16px;
+}
+#header .signup-form  .btn-sign-up {
+	font-size: 13px;
+	font-weight: bold;
+	font-family: AvenirLTStd-Black;
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 9px;
+}
+	
+.main-container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.main-container .signup-form > div {
+	margin-top: 10px;
+}
+.main-container .signup-form .btn-primary {
+	background-color: #00a99d;
+	height: 47px;
+	border: 0px;
+	font-size: 15px;
+}
+.main-container .signup-form input {
+	height: 47px;
+}
+.main-container .signup-form .btn, .main-container .signup-form .btn-group  {
+	width: 100%;
+}
+.main-container .signup-form  .dropdown-toggle {
+	height: 47px;
+	text-align: left;
+}
+
+#features {
+	margin-top: 170px;
+	overflow: auto;
+}
+
+#features .features-list {
+	margin-top: 188px;
+	padding-left: 20px;
+}
+#features .features-list > div {
+	height: 108px;
+}
+#features .features-list div#item-2 {
+	height: 106px;
+}
+#features .features-list div#item-3 {
+	height: 106px;
+}
+#features .features-list h2 {
+	font-family: AvenirLTStd-Black;
+	font-size: 24px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#features .features-list p {
+	font-family: AvenirLTStd-Roman;
+	font-size: 18px;
+}
+#features .bullet {
+	margin-top: 80px;
+	right: 238px;
+	position: absolute;	
+}
+#features .bullet-1 {
+	top: 190px;
+	right: 30px;
+	position: absolute;
+}
+#features .bullet-2 {
+	top: 218px;
+}
+#features .bullet-3 {
+	top: 324px;
+}
+#features .bullet-4 {
+	top: 430px;
+}
+#features .mobile {
+	text-align: center;
+}
+#features .desktop {
+	padding-left: 40px;
+}
+
+.image-250 {
+	display: none;
+	margin: 0 auto;
+}
+
+#footer {
+	margin-top: 50px;
+	border-top: 1px solid #dddddd;
+	margin-bottom: 40px;;
+}
+#footer > div {
+	text-align: center;
+	max-width: 320px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+#footer > div a {
+	font-size: 18px;
+	color: black;
+}
+#footer img {
+	margin-top: 24px
+}
+
+.fs-30 {
+	font-size: 30px;
+}
+.fs-19 {
+	font-size: 19px;
+}
+.fs-20 {
+	font-size: 20px;
+}
+.fs-28 {
+	font-size: 28px;
+}
+.mt-40 {
+	margin-top: 40px;
+}
+.mt-45 {
+	margin-top: 45px;
+}
+.mt-25 {
+	margin-top: 25px;
+}
+
+.modal-content {
+	border-radius: 0px;
+}
+.modal .modal-content {
+	text-align: center;
+}
+.modal .modal-title {
+	font-size: 42px;
+	font-weight: bold;
+}
+.modal .btn-facebook {
+	width: 100% !important;
+	background-color: #4463a5;
+	color: #fff;	
+	font-family: AvenirLTStd-Black;
+	height: 77px;		
+	font-size: 20px;	
+	border-radius: 0px;
+	background-image: url('../images/icon_fb.png');
+	background-repeat: no-repeat;
+	background-position: 65% center;
+	padding-top: 25px;	
+	padding-right: 80px;	
+}
+.modal .btn-twitter {
+	width: 100%;
+	background-color: #4caaed;
+	color: #fff;
+	height: 77px;	
+	font-family: AvenirLTStd-Black;
+	font-size: 20px;		
+	border-radius: 0px;	
+	background-image: url('../images/icon_tw.png');
+	background-repeat: no-repeat;
+	background-position: 65% center;	
+	padding-top: 25px;
+	padding-right: 80px;
+}
+.modal-footer, .modal-footer .col {
+	padding: 0px;
+}
+.modal-header {
+	border: 0px;
+}
+.modal-body {
+	padding: 5px 15px 35px 15px;	
+}
+.modal-body p {
+	margin-bottom: 0px;
+}
+.modal {
+	z-index: 99999999;
+}
+.image-whole { 
+	z-index: 1000;
+	position: relative;
+}
+
+/* STYLES FOR MOBILE DEVICES */
+@media screen and (max-width: 992px) {
+	#features .desktop {
+		padding-left: 0px;
+	}
+	section#header {
+		margin-top: 25px;
+	}
+	#header p {
+		padding-top: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#header .signup-form .col {
+		padding-left:  10px;
+		padding-right: 10px;
+	}
+	#header h1 {
+		margin-top: 30px;
+	}
+	.main-container .signup-form  .btn-sign-up {
+		font-size: 12px;
+	}
+	#features .features-list p {
+		padding-top: 2px;
+		font-size: 14px;
+	}
+	.fs-30 {
+		font-size: 19px;
+	}
+	.fs-20 {
+		font-size: 16px;
+	}	
+	.fs-19 {
+		font-size: 15px;
+	}
+	.fs-28 {
+		font-size: 15px;
+		font-family: AvenirLTStd-Black;
+	}
+	.modal .modal-title {
+		font-size: 24px;
+	}
+	
+	#features .features-list > div {
+		line-height: 130%;
+		padding-left: 30px;
+/*		padding-right: 30px;*/
+		height: 97px;
+		background-position: 0px 0px;
+	}
+	#features .features-list div#item-2 {
+		height: 93px;
+	}
+	#features .features-list div#item-3 {
+		height: 96px;
+	}	
+	#features .features-list > div h2 {
+		font-size: 18px;
+	}
+	#features .features-list #item-1 {
+		background-image: url('../images/icon_heart.png');
+		background-repeat: no-repeat;		
+	}
+	#features .features-list #item-2 {
+		background-image: url('../images/icon_clock.png');
+		background-repeat: no-repeat;
+	}
+	#features .features-list #item-3 {
+		background-image: url('../images/icon_wand.png');
+		background-repeat: no-repeat;
+	}	
+	#features .features-list #item-4 {
+		background-image: url('../images/icon_blitz.png');
+		background-repeat: no-repeat;
+	}
+	#footer { 
+		margin-top: 0px;
+	}
+	#footer > div {
+		padding-top: 20px;
+	}
+	#footer > div .terms {
+		display: none;
+	}
+	#footer > div .privacy {
+		display: none;
+	}
+	#footer > div a {
+		font-size: 14px;
+	}
+	.modal .btn-facebook {
+		background-position: 80% center;
+	}
+	.modal .btn-twitter {	
+		background-position: 80% center;	
+	}	
+	.image-250 {
+		display: block !important;
+	}
+	.image-whole {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 590px) {
+	#header p {
+		font-size: 18px;
+	}
+	#header h1 {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.modal .modal-title {
+		font-family: AvenirLTStd-Black;
+		font-size: 23px;
+		margin-top: 25px;
+	}
+	.modal .btn-facebook {
+		font-size: 15px;
+		padding-top: 28px;		
+		padding-left: 32px;
+	}
+	.modal .btn-twitter {	
+		font-size: 15px;
+		padding-top: 28px;
+		padding-left: 32px;		
+	}	
+	#header h1 {
+		margin-top: 31px;
+	}
+	#header .signup-form .btn-sign-up {
+		font-size: 11px;
+	}	
+}
+
+@media screen and (min-width: 466px) {
+	#header img {
+		width: 455px; height: 73px;
+	}
+}
+@media screen and (max-width: 465px) {
+	#header img {
+		width: 300px;
+	}	
+	#header h1 {
+		font-size: 14px;
+	}
+	#header p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.modal .btn-facebook {
+		padding-left: 14px;
+		background-position: 90% center;
+	}
+	.modal .btn-twitter {
+		padding-left: 14px;
+		background-position: 90% center;
+	}	
+}
+
+@media (min-width: 768px) {
+	.modal-dialog {
+		width: 768px;
+		margin: 100px auto;
+	}
+}
+@media (min-width: 900px) {
+	.modal-dialog {
+		width: 850px;
+	}
+}
+
+
+@media screen and (min-width: 708px) and (max-width: 992px) {
+	#features .features-list {
+		margin-top: 88px;
+		margin-left: auto;
+		max-width: 720px;
+	}
+	#features .features-list > div {
+		height: 74px;
+	}
+	#features .features-list div#item-2 {
+		height: 58px;
+	}
+	#features .features-list div#item-3 {	
+		height: 75px;
+	}
+}
+@media screen and (max-width: 708px) {
+	#features .features-list {
+		margin-top: 50px;
+		max-width: 290px;
+		margin: 50 auto;
+		margin-bottom: 0px;
+	}
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+	.modal .btn-facebook {
+		background-image: url('../images/icon_fb-x2.png');
+		background-size: 30px 30px;
+	}
+	.modal .btn-twitter {
+		background-image: url('../images/icon_tw-x2.png');
+		background-size: 30px 30px;		
+	}
+
+}
